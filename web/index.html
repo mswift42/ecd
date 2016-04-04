@@ -2,11 +2,14 @@
 <html>
   <head>
     <title>ecd</title>
-
+    <script>
+      window.Polymer = window.Polymer || {};
+      window.Polymer.dom = 'shadow';
+    </script>
     <script defer src="main.dart" type="application/dart"></script>
     <script defer src="packages/browser/dart.js"></script>
   </head>
-  <body>
-    <my-app>Loading...</my-app>
+  <body class="fullbleed">
+    <my-app class="fit layout vertical">Loading...</my-app>
   </body>
 </html>
